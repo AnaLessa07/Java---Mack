@@ -10,5 +10,6 @@ public class CalculaDobro {
         int dobro = numero * 2;
         System.out.println("Dobro = " + dobro);
 
+        entrada.close();
     }
 }

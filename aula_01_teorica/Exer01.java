@@ -15,6 +15,8 @@ public class Exer01 {
         System.out.println("\n Quantid: " +quantidade);
         System.out.println("\n preco: " +preco);
         System.out.println("\n total: " +total);
+
+        entrada.close();
     }
 
 }

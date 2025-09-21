@@ -1,4 +1,4 @@
-package aula_03_teorica;
+
 import java.util.Scanner;
 
 public class Exer02 {
@@ -71,6 +71,6 @@ public class Exer02 {
         System.out.printf("Desconto: R$ %.2f\n", desconto);
         System.out.printf("Total a Pagar: R$ %.2f\n", total);
 
-
+        entrada.close();
     }
 }

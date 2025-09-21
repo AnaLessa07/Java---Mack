@@ -31,6 +31,7 @@ public class Checkout {
         System.out.printf("%-69s R$ %5.2f\n", "Subtotal das diárias (" + noite + " x R$ " + diaria + "):", subtotal);
         System.out.println("\n");
         System.out.printf("%-69s R$ %5.2f\n", "Taxa de Serviço (10% sobre diarias):", taxa);
+        System.out.printf("%-69s R$ %5.2f\n", "Por pessoa ("+ pessoas +" pessoaas):", hospede);
         
 
         

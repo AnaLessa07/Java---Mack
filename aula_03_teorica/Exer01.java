@@ -1,4 +1,4 @@
-package aula_03_teorica;
+
 import java.util.Scanner;
 
 public class Exer01 {
