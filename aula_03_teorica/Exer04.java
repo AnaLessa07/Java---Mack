@@ -10,5 +10,7 @@ public class Exer04 {
         String status = (valor > 0) ? "Positivo" : (valor < 0) ? "Negativo" : "Zerado";
 
         System.out.println("SALDO É: " + status);
+
+        entrada.close();
     }
 }

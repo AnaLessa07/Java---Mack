@@ -16,17 +16,14 @@ public class Exee05 {
         System.out.println("Digite o local que quer ir: ");
         String local = entrada.nextLine();
 
-        switch (local) {
-            case 1 -> if( local == "SP" || "RJ")
-                
-                break;
-        
-            default:
-                break;
-        }
+        double resultado = switch (local) {
+            case "SP", "RJ" -> 15.50;
+            case "MG", "ES" -> 18.00;
+            case "PR", "SC", "RS" -> 27.75;
+            case "BA", "SE", "AL", "PE" -> 35.20;
+            default -> 50.00;
+        };
 
-        
-
-
+        System.out.println(resultado);
     }
 }
