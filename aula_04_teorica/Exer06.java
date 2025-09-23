@@ -27,7 +27,7 @@ public class Exer06 {
                 if (matriz[i][j] == num) {
                     System.out.printf("COLUNA: %d, LINHA: %d%n", j, i);
                 } else {
-                    System.err.println("NAO ENCONTRADO NA MATRIZ");
+                    System.out.println("NAO ENCONTRADO NA MATRIZ");
                 }
             }
 
