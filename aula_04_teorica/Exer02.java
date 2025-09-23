@@ -19,5 +19,9 @@ public class Exer02 {
         for (int i = 0, j = valores.length -1; i < valores.length; i++, j--){
             valoresInversos[i] = valores[j];
         }
+
+        for (int i = 0; i < valoresInversos.length; i++){
+            System.out.println(valoresInversos[i]);
+        }
     }
 }
