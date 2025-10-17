@@ -1,5 +1,3 @@
-package aula_08_pratica;
-
 public class Atendimento {
     private Procedimento p;
     private int quantidade;
@@ -16,5 +14,4 @@ public class Atendimento {
     public double calculaCusto(){
         return p.getPrecoPorSessao() * quantidade;
     }
-
 }

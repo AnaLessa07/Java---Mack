@@ -12,8 +12,5 @@ public class Ponto {
         return Math.sqrt(soma);
     }
 
-    @Override
-    public String toString(){
-        return String.format("(%.0f, %.0f)", x, y);
-    }
+c
 }

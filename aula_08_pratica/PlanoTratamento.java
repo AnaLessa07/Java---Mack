@@ -1,5 +1,3 @@
-package aula_08_pratica;
-
 import java.util.ArrayList;
 
 public class PlanoTratamento {
@@ -7,10 +5,10 @@ public class PlanoTratamento {
     ArrayList<Atendimento> atendimentos;
 
     public PlanoTratamento(){
-
+        this.atendimentos = new ArrayList<>();
     } 
     
-    public void adicionarAendimento(Atendimento a){
+    public void adicionarAtendimento(Atendimento a){
         atendimentos.add(a);
     }
 
@@ -22,8 +20,8 @@ public class PlanoTratamento {
         return tempoTotal;
     }
 
-    public int calculaCustoTotal(){
-        int custoTotal = 0;
+    public double calculaCustoTotal(){
+        double custoTotal = 0;
         for (Atendimento atendimento : atendimentos){
             custoTotal += atendimento.calculaCusto();
         }
